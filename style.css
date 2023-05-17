@@ -32,6 +32,10 @@ a {
   font-size: 18px;
 }
 
+a:hover {
+  color: rgb(145, 211, 231);
+} 
+
 .hero {
   height: 600px;
   background-color: #1f2937;
@@ -63,9 +67,10 @@ a {
 button {
   background-color: #3882f6;
   color: white;
-  padding: 8px 20px;
+  padding: 8px 25px;
   border: none;
   border-radius: 7px;
+  font-weight: bold;
 }
 
 .hero-right {
@@ -185,4 +190,10 @@ h1 {
 
 .odin {
   font-weight: bold;
+}
+
+button:hover {
+  background-color: white;
+  color: #1f2937;
+  text-decoration: underline;
 }
